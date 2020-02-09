@@ -3,112 +3,42 @@ $primary1: #03a9f4;
 $primary2: #f75e2e;
 $primary3: #ecfa4d;
 $primary4:  #656a70;
-$base-white: #ffffff;
-
+$base-white: #fff;
+$green: #09a912;
+$red: #f44747;
+$orange: #ffaa33;
+$blue: #21a5f8;
 // primary1
 $p1-lighten-1: lighten($primary1,10%);
 $p1-lighten-2: lighten($primary1,20%);
 $p1-lighten-3: lighten($primary1,30%);
-$p1-lighten-4: lighten($primary1,40%);
 $p1-darken-1: darken($primary1,10%);
 $p1-darken-2: darken($primary1,20%);
 $p1-darken-3: darken($primary1,30%);
-$p1-darken-4: darken($primary1,40%);
 // primary2
 $p2-lighten-1: lighten($primary2,10%);
 $p2-lighten-2: lighten($primary2,20%);
 $p2-lighten-3: lighten($primary2,30%);
-$p2-lighten-4: lighten($primary2,40%);
 $p2-darken-1: darken($primary2,10%);
 $p2-darken-2: darken($primary2,20%);
 $p2-darken-3: darken($primary2,30%);
-$p2-darken-4: darken($primary2,40%);
 // primary3
 $p3-lighten-1: lighten($primary3,10%);
 $p3-lighten-2: lighten($primary3,20%);
 $p3-lighten-3: lighten($primary3,30%);
-$p3-lighten-4: lighten($primary3,40%);
 $p3-darken-1: darken($primary3,10%);
 $p3-darken-2: darken($primary3,20%);
 $p3-darken-3: darken($primary3,30%);
-$p3-darken-4: darken($primary3,40%);
 // primary4
 $p4-lighten-1: lighten($primary4,10%);
 $p4-lighten-2: lighten($primary4,20%);
 $p4-lighten-3: lighten($primary4,30%);
-$p4-lighten-4: lighten($primary4,40%);
 $p4-darken-1: darken($primary4,10%);
 $p4-darken-2: darken($primary4,20%);
 $p4-darken-3: darken($primary4,30%);
-$p4-darken-4: darken($primary4,40%);
 
 // font
 $Poppins-Medium: 'Poppins-Medium';
 $Poppins-SemiBold: 'Poppins-SemiBold';
 $Poppins-Bold:'Poppins-Bold';
 $Poppins-Regular: 'Poppins-Regular';
-
-// typography
-.header-1 {
-    font-family: $Poppins-Bold;
-    font-size: 35px;
-    color: $p4-darken-3;
-}
-@mixin text-s {
-    background-color: $primary1;
-    color: $base-white;
-}
-.header-2 {
-    font-family: $Poppins-Medium;
-    font-size: 33px;
-    color: $p4-darken-2;
-}
-.header-3 {
-    font-family: $Poppins-SemiBold;
-    font-size: 27pt;
-    color: $p4-darken-3;
-}
-.header-4 {
-    font-family: $Poppins-Medium;
-    font-size: 22pt;
-    color: $p4-darken-3;
-}
-.header-5 {
-    font-family: $Poppins-Medium;
-    font-size: 17pt;
-    color: $p4-darken-3;
-}
-.header-6 {
-    font-family: $Poppins-Medium;
-    font-size: 15pt;
-    color:$p4-darken-3;
-}
-.list {
-    font-family: $Poppins-Medium;
-    font-size: 15pt;
-    color:$p4-darken-1;
-    list-style: none;
-    i{
-        color:$primary1;
-    }
-}
-.paragraph {
-    font-family: $Poppins-Regular;
-    font-size: 14pt;
-    color: $p4-darken-1;
-}
-.subtitle {
-    font-family: $Poppins-Medium;
-    font-size: 20pt;
-    color: $p4-darken-1;
-}
-.quotation {
-    font-family: $Poppins-Regular;
-    color: $p1-darken-1;
-    font-size: 17pt;
-    border-left: $p1-darken-1 solid 2px;
-    padding-left: 30px;
-    background-color: $p1-lighten-4;
-}
-
-

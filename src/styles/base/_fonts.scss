@@ -25,14 +25,14 @@
 @font-face {
     font-family: 'Poppins-Regular';
     src: url('../../fonts/Poppins-Regular.woff2') format('woff2'),
-        url('../../fonts/Poppins-Regular.woff.woff') format('woff');
+        url('../../fonts/Poppins-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'OpenSans-LightItalic';
-    src: url('../../fonts/OpenSans-LightItalic.woff2/.woff2') format('woff2'),
+    src: url('../../fonts/OpenSans-LightItalic.woff2') format('woff2'),
         url('../../fonts/OpenSans-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
@@ -117,6 +117,3 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
-

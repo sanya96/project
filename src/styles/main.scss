@@ -1,8 +1,10 @@
+@import "base/general";
+@import "base/normalise";
+@import "base/fonts";
 @import "helpers/variables";
 @import "helpers/mixins";
 @import "helpers/functions";
+@import "base/typographi";
 @import "vendor/libs";
-@import "base/fonts";
-@import "base/general";
 @import "bootstrap/bootstrap-grid";
 @import "../blocks/modules";

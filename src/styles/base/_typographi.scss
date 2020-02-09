@@ -1,0 +1,154 @@
+body{
+  font-family: $Poppins-Regular;
+  font-size: 14px;
+}
+.header-1 {
+  font-family: $Poppins-Bold;
+  font-size: 35px;
+  color: $p4-darken-3;
+}
+@mixin text-s{
+  background-color: $primary1;
+  color: $base-white;
+}
+.header-2 {
+  font-family: $Poppins-Medium;
+  font-size: 33px;
+  color: $p4-darken-2;
+}
+.header-3 {
+  font-family: $Poppins-Medium;
+  font-size: 27pt;
+  color: $p4-darken-3;
+}
+.header-4 {
+  font-family: $Poppins-Medium;
+  font-size: 22pt;
+  color: $p4-darken-3;
+}
+.header-5 {
+  font-family: $Poppins-Medium;
+  font-size: 17pt;
+  color: $p4-darken-3;
+}
+.header-6 {
+  font-family: $Poppins-Medium;
+  font-size: 15pt;
+  color:$p4-darken-3;
+}
+.list {
+  font-family: $Poppins-Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  color:$p4-darken-1;
+  li::before{
+    content: '\f058';
+    font-family: "Font Awesome 5 Free";
+    font-size: 18px;
+    font-weight: bold;
+    color: $primary1;
+    margin-right: 10px;
+
+  }
+}
+.paragraph {
+  font-family: $Poppins-Regular;
+  font-size: 14px;
+  color: $p4-darken-1;
+}
+.subtitle {
+  font-family: $Poppins-Medium;
+  font-size: 20px;
+  color: $p4-darken-1;
+}
+.quotation {
+  font-family: $Poppins-Regular;
+  color: $p1-darken-1;
+  font-size: 17px;
+  border-left: $p1-darken-1 solid 2px;
+  padding-left: 30px;
+  background-color: $p1-lighten-3;
+}
+input{
+  border: 1px solid #d8dadb;
+  background-color: #f6f9f9;
+}
+button{
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+.btn-orange,
+.btn-orange-light{
+  color: $base-white;
+  border: 1px solid $primary2;
+  background: $primary2;
+  font-family: $Poppins-SemiBold;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  &:hover{
+    color: $base-white;
+    background: $p2-lighten-1;
+    border-color:  $p2-lighten-1;
+  }
+  &:disabled{
+    background: $p4-lighten-3;
+    border-color: $p4-lighten-3;
+  }
+}
+.btn-orange-light{
+  color: $primary2;
+  background: $base-white;
+}
+.btn-primary{
+  background: $blue;
+  font-family: $Poppins-Medium;
+  font-size: 14px;
+  font-weight: 500;
+  color: $base-white;
+}
+
+.btn-primary-light{
+  background: $base-white;
+  color: $primary1;
+  font-family: $Poppins-Medium;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid $primary1;
+}
+
+.btn-primary,
+.btn-primary-light{
+  &:hover{
+    background: $p1-lighten-3;
+    color: $base-white;
+    border-color: $p4-lighten-3;
+  }
+  &:disabled{
+    background: $p4-lighten-3;
+    border-color: $p4-lighten-3;
+    color: $base-white;
+  }
+}
+input,
+select{
+  border: 1px solid $p4-lighten-3;
+  border-radius: 3px;
+  background-color: #f6f9f9;
+  padding: 15px;
+  &::placeholder{
+    color: #656a70;
+    font-family: $Poppins-Regular;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  &:hover{
+    background: $base-white;
+  }
+  &:focus{
+    border-color: $primary1;
+    box-shadow: inset 0 0 5px rgba(15, 139, 204, 0.4);
+  }
+}
