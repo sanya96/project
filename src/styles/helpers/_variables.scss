@@ -49,41 +49,41 @@ $Poppins-Bold:'Poppins-Bold';
 $Poppins-Regular: 'Poppins-Regular';
 
 // typography
-@mixin header-1 {
+.header-1 {
     font-family: $Poppins-Bold;
     font-size: 35px;
     color: $p4-darken-3;
 }
-@mixin text-h {
+@mixin text-s {
     background-color: $primary1;
     color: $base-white;
 }
-@mixin header-2 {
+.header-2 {
     font-family: $Poppins-Medium;
     font-size: 33px;
     color: $p4-darken-2;
 }
-@mixin header-3 {
+.header-3 {
     font-family: $Poppins-SemiBold;
     font-size: 27pt;
     color: $p4-darken-3;
 }
-@mixin header-4 {
+.header-4 {
     font-family: $Poppins-Medium;
     font-size: 22pt;
     color: $p4-darken-3;
 }
-@mixin header-5 {
+.header-5 {
     font-family: $Poppins-Medium;
     font-size: 17pt;
     color: $p4-darken-3;
 }
-@mixin header-6 {
+.header-6 {
     font-family: $Poppins-Medium;
     font-size: 15pt;
     color:$p4-darken-3;
 }
-@mixin list {
+.list {
     font-family: $Poppins-Medium;
     font-size: 15pt;
     color:$p4-darken-1;
@@ -92,17 +92,17 @@ $Poppins-Regular: 'Poppins-Regular';
         color:$primary1;
     }
 }
-@mixin paragraph {
+.paragraph {
     font-family: $Poppins-Regular;
     font-size: 14pt;
     color: $p4-darken-1;
 }
-@mixin subtitle {
+.subtitle {
     font-family: $Poppins-Medium;
     font-size: 20pt;
     color: $p4-darken-1;
 }
-@mixin quotation {
+.quotation {
     font-family: $Poppins-Regular;
     color: $p1-darken-1;
     font-size: 17pt;

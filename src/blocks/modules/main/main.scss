@@ -2,41 +2,6 @@
     max-width: 800px;
     margin: 0 auto;
 }
-h1{
-    @include header-1;
-}
-h2{
-    @include header-2;
-}
-h2{
-    @include text-h;
-}
-h3{
-    @include header-3;
-}
-h4{
-    @include header-4;
-}
-h5{
-    @include header-5;
-}
-
-ul{
-    @include list;
-}
-
-h6{
-    @include header-6;
-}
-
-p{
-    @include paragraph;
-}
-
-span{
-    @include subtitle;
-}
-
-.quotation{
-    @include quotation;
+h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,h6::selection,ul::selection,p::selection,span::selection{
+    @include text-s;
 }
